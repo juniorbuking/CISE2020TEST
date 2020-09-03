@@ -1,0 +1,50 @@
+body {
+  font-family: 'Helvetica Neue';
+  font-size: 20px;
+  font-weight: normal;
+  background: #f2f2f2;
+}
+
+main {
+  width: 400px;
+  margin: auto;
+  margin-top: 50px;
+}
+
+input {
+  width: 100%;
+  border: solid 1px #e5e5eb;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style the search field */
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+
+/* Style the submit button */
+form.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #00B4CC;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
